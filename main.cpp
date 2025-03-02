@@ -43,8 +43,7 @@ void Opt2(vector<int> &way, const vector<Tochechka> &points, int n)
     double len, newlen;
     while (fl == 1)
     {
-        len = Length(way, points)
-        fl = false;
+        len = Length(way, points), fl = false;
         for (i = 1; i < N1; i++)
         {
             for (j = i + 1; j < N2; j++)
